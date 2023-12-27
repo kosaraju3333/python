@@ -1,9 +1,12 @@
 num1 = 10
 num2 = 3
 
+print("type_num1 is :", type(num1))
+
 # Integer Division
 result1 = num1 // num2
 print("Integer Divioion:", result1)
+
 
 # Modulus (Reminder)
 result2 = num1 % num2
