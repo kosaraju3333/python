@@ -3,7 +3,6 @@
 # To access environment variables we nedd OS package, we have imported os here
 import os
 
-
 # To Run shell command in python
 os.system('echo "Listing all github public repos"')
 
