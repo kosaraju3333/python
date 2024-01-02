@@ -13,9 +13,9 @@ def list_files_in_folder(folder_path):
 
 def main():
     folder_paths = input("Enter a list of folder paths separated by spaces: ").split()
-    
+    print(type(folder_paths))
     for folder_path in folder_paths:
-        # Below Declearing variable a and b and accesing return values from list_files_in_folder(folder_path) function 
+        # Below Declearing variable a and b for accesing return values from list_files_in_folder(folder_path) function 
         a, b = list_files_in_folder(folder_path)
         print("a Value: ", a)
         print("b Value: ", b)
