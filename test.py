@@ -8,18 +8,6 @@ response = requests.get(git_url)
 # Converting the above response JSON output to list of dictionaries
 repo_lists = response.json()
 
-repos_name_list = []
-
-# Iterating the list of dictionaries
-def spontan_repos_list():
-    for repos in repo_lists:
-        repo_name = repos["name"]
-        repos_name_list.append(repo_name)
-    return repos_name_list
-
-spontan_repos_list()
-print(repos_name_list)
-
 # Checking data_type of repo_lists
 print("type of repo_lists:", type(repo_lists))
 
@@ -31,3 +19,19 @@ print(repo_lists[0]["name"])
 print(repo_lists[1]["name"])
 print(repo_lists[2]["name"])
 print(repo_lists[3]["name"])
+
+repos_name_list = []
+
+# Iterating the list of dictionaries
+for repos in repo_lists:
+    repo_name = repos["name"]
+    repos_name_list.append(repo_name)
+    
+
+print("spontan_repos_list:", repos_name_list)
+
+# # iterate the list
+# list = [1, 2, 3, 4]
+# for l in list:
+#     print(l)
+
