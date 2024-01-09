@@ -3,7 +3,11 @@ import requests
 git_url = "https://api.github.com/orgs/spontansolutions/repos"
 
 # Getting the url response using request.get() method, out of response is in JSON format
+# get the response code like 200, 505, 403 (eg: "<Response [200]>") use below command 
 response = requests.get(git_url)
+
+# If you want to print the output of the url use below command 
+print(response.text)
 
 # Converting the above response JSON output to list of dictionaries
 repo_lists = response.json()
