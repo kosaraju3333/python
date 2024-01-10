@@ -40,8 +40,8 @@ def delete_file(filename):
 
 
 if __name__ == '__main__':
-	filename = "example.txt"
-	new_filename = "new_example.txt"
+	filename = "text123.txt"
+	new_filename = "text183.txt"
 
 	create_file(filename)
 	read_file(filename)
