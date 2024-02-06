@@ -10,13 +10,13 @@ ec2_console_client = aws_console.client(service_name='ec2', region_name='us-east
 print('Starting Ec2 Instances')
 ## ec2 instance start clinet Methods 
 instance_start = ec2_console_client.start_instances(
-    InstanceIds=['i-0439d8a96d4dec453']
+    InstanceIds=['string']
 )
 ## Creating a waiter
 instance_start_waiter = ec2_console_client.get_waiter('instance_running')
 ## Waiter Method
 instance_start_waiter.wait(
-    InstanceIds=['i-0439d8a96d4dec453']
+    InstanceIds=['string']
 )
 print("Ec2 instance started")
 
@@ -24,12 +24,12 @@ print("Ec2 instance started")
 print('Ec2 instance Stopping ')
 ## ec2 instance stop Client Method
 instance_stop = ec2_console_client.stop_instances(
-    InstanceIds=['i-0439d8a96d4dec453']
+    InstanceIds=['string']
 )
 ## Create Waiter
 instance_stop_waiter = ec2_console_client.get_waiter('instance_stopped')
 ## Waiter Method
 instance_stop_waiter.wait(
-    InstanceIds=['i-0439d8a96d4dec453']
+    InstanceIds=['string']
 )
 print('Ec2 instance Stopped')
