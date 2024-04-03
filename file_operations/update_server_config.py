@@ -18,7 +18,7 @@ def update_server_config(file_path, key, value):
 config_path = "server.conf"
 # Key and new value for updating the server configuration
 key_to_update = "MAX_CONNECTIONS"
-new_value = "20000"
+new_value = "40000"
 
 # Update the server configuration file
 update_server_config(config_path, key_to_update, new_value)

@@ -13,6 +13,7 @@ ami_response = ec2_client.describe_images(Owners=['self'])['Images']
 for value in ami_response:
     AMI_ID = value['ImageId']
     for ebs in value['BlockDeviceMappings']:
+        ## Here we ate iterating the distoinary KEY VALUE pair
         for key, value in ebs.items():
             if key == 'Ebs':
                 snapshot_Id = value['SnapshotId']

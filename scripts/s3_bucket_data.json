@@ -1,0 +1,32 @@
+{
+    "Versions": [
+        {
+            "ETag": "\"3dc654eb299c20c377925052e01b6ff1\"",
+            "Size": 9,
+            "StorageClass": "STANDARD",
+            "Key": "file.txt",
+            "VersionId": "bYHUM8pfGK3I0ifu7AQ4FJjkiiDapfUi",
+            "IsLatest": true,
+            "LastModified": "2024-01-23T09:39:16.000Z",
+            "Owner": {
+                "DisplayName": "kosaraju3333",
+                "ID": "21436f2d28eb930e449ee7532978142cc6249167faff06bb1dfb8cb1eff70b1f"
+            }
+        },
+        {
+            "ETag": "\"6f011906543b3ca903124e4d89178552\"",
+            "Size": 7,
+            "StorageClass": "STANDARD",
+            "Key": "file.txt",
+            "VersionId": "gt.Q5GlCa9OhZWtiQsaVXQDNB5yAYTjP",
+            "IsLatest": false,
+            "LastModified": "2024-01-23T09:37:54.000Z",
+            "Owner": {
+                "DisplayName": "kosaraju3333",
+                "ID": "21436f2d28eb930e449ee7532978142cc6249167faff06bb1dfb8cb1eff70b1f"
+            }
+        }
+    ],
+    "RequestCharged": null
+}
+
