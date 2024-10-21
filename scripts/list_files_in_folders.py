@@ -1,7 +1,7 @@
 ## This Program is to list the files from the folders
 
 import os
-
+## The split() method splits a string into a list.
 folders = input("Provide folders names with spaces in between: ").split()
 
 for folder in folders:
