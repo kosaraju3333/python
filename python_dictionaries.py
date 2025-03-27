@@ -5,7 +5,7 @@ phone_no={
     'Mohan': 789
 }
 print(phone_no)
-# #### Update the item in dictionary
+# #### add the item in dictionary
 # phone_no['Mohan']=123
 # print(phone_no)
 #
