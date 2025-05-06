@@ -5,9 +5,9 @@ phone_no={
     'Mohan': 789
 }
 print(phone_no)
-# #### add the item in dictionary
-# phone_no['Mohan']=123
-# print(phone_no)
+#### add the item in dictionary
+phone_no['Mohan12']=123
+print(phone_no)
 #
 # ###
 # phone_no['shyam']={'work_no': 111, 'home_no': 222}
