@@ -32,6 +32,7 @@ with open("test.txt","r") as file:
 print()
 
 with open("test.txt","r") as file:
+    ## This will give list
     lines_list = file.readlines()
     for line in lines_list:
         print(line,end="")
