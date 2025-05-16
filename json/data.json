@@ -1,0 +1,10 @@
+{
+  "name": "John",
+  "age": "30",
+  "is_student": "False",
+  "courses": ["Math", "Science"],
+  "address": {
+    "city": "New York",
+    "state": "NY"}
+
+}
