@@ -37,9 +37,15 @@ leap_year_feb=29
 
 if find_leap_year(year_input) != "Leap":
     days_in_month=calendar[month_input]
+    print(f"{year_input} is 'Not a Leap Year' ")
     print(f"In Year {year_input} {month_input} has {days_in_month} Days")
 else:
-    print(f"In Year {year_input} {month_input} has {leap_year_feb} Days")
+    print(f"{year_input} is a 'Leap Year' ")
+    if month_input == "february":
+        print(f"In Year {year_input} {month_input} has {leap_year_feb} Days")
+    else:
+        leap_yesr_days_in_month=calendar[month_input]
+        print(f"In Year {year_input} {month_input} has {leap_yesr_days_in_month} Days")
 # elif find_leap_year(year_input) == "Leap":
 #     print(f"In Year {year_input} {month_input} has {leap_year_feb} Days")
 
