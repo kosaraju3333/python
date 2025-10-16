@@ -4,7 +4,8 @@ import re
 ## "Don't interpret backslashes (\) as escape characters. Just pass them as-is."
 ## Without 'r', Python might misinterpret things:
 ip_pattern = r'\d{1,3}[.]\d{1,3}[.]\d{1,3}[.]\d{1,3}'
-user_pattern = r'user (\S+)'
+# Here \S+ matched the username "nurix-dev" — all characters until the next space.
+user_pattern = r'user (\S+)' 
 port_pattern = r'port (\S+)'
 try:
     with open('log-file.txt','r') as file:
