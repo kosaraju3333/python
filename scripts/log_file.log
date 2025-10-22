@@ -1,0 +1,5 @@
+2025-10-21 09:15:32 INFO  [UserService] User 'john_doe' logged in from IP 192.168.1.45
+2025-10-21 09:15:35 WARN  [PaymentService] Payment delayed for order ID 10234
+2025-10-21 09:15:42 ERROR [DBConnection] Failed to connect to database: Timeout after 5s
+2025-10-21 09:16:01 INFO  [EmailService] Sent password reset link to user 'alice'
+2025-10-21 09:16:15 DEBUG [CacheManager] Cache miss for key 'user_42_profile'
