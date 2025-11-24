@@ -17,7 +17,6 @@ with open('log_file.log','r') as f:
             print(payment_delayed_match.group())
 
         if "logged in" in line:
-            
             user_match = re.search(user_pattern, line)
             ip_match = re.search(ip_pattern, line)
             with open('script_log.txt','a') as file:
@@ -33,7 +32,7 @@ with open('log_file.log','r') as f:
             with open('script_log.txt','a') as file:
                 print(f"############ ERROR info ##############", file=file)
                 print(f"{error_match.group(1)}", file=file)
-                
+
             print(f"############ ERROR info ##############")
             print(f"{error_match.group(1)}")
 
