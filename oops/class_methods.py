@@ -7,7 +7,6 @@ class Instructor:
         self.name=ins_name
         self.address=ins_address
 
-    # 
     def display(self,subject_name):
         print(f"Hi, I am {self.name} and I teach {subject_name}")
         return 200
