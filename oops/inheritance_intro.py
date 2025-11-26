@@ -35,6 +35,7 @@ class Female(Human):
     ## access Method from parent or super Class and add or append some more functionality to the method
     def eat(self):
         super().eat()
+
         print("I can cook too..!!")
 
 male_1=Male("Ram",72)
