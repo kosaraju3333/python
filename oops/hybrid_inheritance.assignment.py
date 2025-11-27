@@ -51,6 +51,13 @@ print("####################### Student Details #######################")
 student_1=Student("Ram", "JNTU-K", "Engineering", "ECE")
 student_1.show_details()
 
+
+
+print(Student.mro())
+student_2=Student("RK", "JNTU-A", "BSC", "Computers")
+student_2.show_details()
+
+
 print("####################### faculty Details #######################")
 
 faculty_1=Faculty("Srinu", "IIT", "CSE")
