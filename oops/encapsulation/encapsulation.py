@@ -4,28 +4,24 @@ class Student:
         self._roll_num=roll_num  #Protected instance Variable or Protected Attribute
         self.__age=age    #Private instance Variable or Private Attribute
 
+    def get_age(self):
+        return self.__age
+
+    def set_age(self,age_number):
+        if age_number>35:
+            print("Invalid age given..Age should be less than 35")
+        else:
+            self.__age=age_number
+            print(f"Set age is: {self.__age}")
+
+    ### Private Method ####
     def __display(self):    #Private instance Method or Private Method
         print(f"Hi myself {self.name}, age {self.__age} with roll number {self._roll_num} from Student class")
 
+    ### Public Method ####
     def displayPrivateData(self):
         self.__display()
 
-class Branch(Student):
-    def show(self):
-        print(f"My roll number is {self._roll_num} calling from Branch class")
-
-s1=Student("Ram",462, 35)
-print(s1.name)
-print(s1._roll_num)
-s1.displayPrivateData()
-
-### Name mangling
-print(dir(s1))
-print(s1._Student__age)
-s1._Student__display()
-
-b1=Branch("Krish",123, 25)
-b1.name="RK"
-b1.show()
-print(b1.name)
-print(b1._roll_num)
+s1=Student("Ram",462,35)
+print(s1.get_age())
+s1.set_age(44)
