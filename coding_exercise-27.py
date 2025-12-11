@@ -9,7 +9,7 @@ class BankAccount:
 
 
     def withdraw(self,withdraw_amount):
-        print(f"Yor withdrawing....{withdraw_amount} rupees pls wait.............")
+        print(f"Your withdrawing....{withdraw_amount} rupees pls wait.............")
         if withdraw_amount > self.balance:
             print(f"Not enough balance!!")
         else:
