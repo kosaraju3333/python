@@ -1,0 +1,10 @@
+2026-03-05 10:01:12 FAIL Database connection failed from 192.168.1.10 user=john port=54321
+2026-03-05 10:02:45 INFO User login success from 172.16.1.2 user=alice port=50345
+2026-03-05 10:03:11 FAIL Timeout while calling payment API from 10.0.0.5 user=mike port=40211
+2026-03-05 10:03:55 WARN Disk usage high on server
+2026-03-05 10:04:22 FAIL Invalid password attempt from 192.168.1.10 user=john port=54322
+2026-03-05 10:05:10 INFO Scheduled job completed successfully
+2026-03-05 10:05:30 FAIL Unable to connect to cache server from 192.168.1.50 user=david port=60122
+2026-03-05 10:06:01 FAIL Too many login attempts from 185.220.101.5 user=root port=44550
+2026-03-05 10:06:20 INFO Service restarted
+2026-03-05 10:07:15 FAIL Timeout while processing request from 10.0.0.5 user=mike port=40212

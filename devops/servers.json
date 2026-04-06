@@ -1,0 +1,37 @@
+{
+  "servers": [
+    {
+      "id": "srv-001",
+      "hostname": "web-01",
+      "ip": "192.168.1.10",
+      "region": "us-east-1",
+      "status": "running",
+      "tags": {
+        "env": "production",
+        "role": "web"
+      }
+    },
+    {
+      "id": "srv-002",
+      "hostname": "app-01",
+      "ip": "192.168.1.11",
+      "region": "us-east-1",
+      "status": "stopped",
+      "tags": {
+        "env": "staging",
+        "role": "app"
+      }
+    },
+    {
+      "id": "srv-003",
+      "hostname": "db-01",
+      "ip": "192.168.1.12",
+      "region": "us-west-2",
+      "status": "running",
+      "tags": {
+        "env": "production",
+        "role": "database"
+      }
+    }
+  ]
+}
